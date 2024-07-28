@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!-- Generated using sounddrill31/actions_generate_local_manifests -->
+    <!-- Remotes -->
+    <remote name="Anything-at-25-00" fetch="https://github.com/Anything-at-25-00" clone-depth="1" />
+    <remote name="roms-experimental" fetch="https://github.com/roms-experimental" clone-depth="1" />
+    <remote name="LineageOS" fetch="https://github.com/LineageOS" clone-depth="1" />
+    <!-- Repos -->
+    <project path="device/tecno/LG8n" name="android_device_tecno_LG8n" remote="Anything-at-25-00" revision="lineage-21.0-redux" />
+    <project path="device/tecno/LG8n-kernel" name="device_tecno_lg8n_kernel" remote="Anything-at-25-00" revision="lineage-20" />
+    <project path="hardware/mediatek" name="android_hardware_mediatek" remote="roms-experimental" revision="lineage-20" />
+    <project path="hardware/transsion" name="android_hardware_transsion" remote="roms-experimental" revision="lineage-20.0" />
+    <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="LineageOS" revision="lineage-21" />
+    <project path="vendor/tecno/LG8n" name="android_vendor_tecno_LG8n_a14" remote="Anything-at-25-00" revision="LG8n" />
+</manifest>
